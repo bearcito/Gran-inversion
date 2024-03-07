@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class CardPerson extends Component {
+class CardPerson extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -90,6 +90,9 @@ export class CardPerson extends Component {
                 </p>
                 <button onClick={() => this.changeAgePerson2()}>birthday Button for Jane Doe</button> */}
             </div>
+
+
         )
     }
 }
+export default CardPerson;

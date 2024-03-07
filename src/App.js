@@ -1,6 +1,7 @@
 import logo from './logo.svg';
-import './App.css'
-import CardPerson from './pages/CardPerson';
+import './App.css';
+import CardPerson from '../src/pages/CardPerson';
+
 
 function App() {
   return (
